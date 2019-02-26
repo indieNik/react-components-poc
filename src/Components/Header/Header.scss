@@ -1,0 +1,13 @@
+@import '../../Styles/Colors.scss';
+
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    transition: all 0.2s ease-in-out;
+    background-color: $light-color;
+    box-shadow: 1px 1px 20px #333;
+    z-index: 2;
+}

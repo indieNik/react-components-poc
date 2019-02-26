@@ -1,0 +1,21 @@
+@import '../../Styles/Colors.scss';
+
+.Sidebar {
+    position: fixed;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100vh;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    width: 64px;
+    background-color: $primary-color;
+    color: rgb(222, 235, 255);
+    fill: $primary-color;
+    transition: background-color 0.3s cubic-bezier(0.2, 0, 0, 1) 0s, color 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
