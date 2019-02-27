@@ -1,0 +1,8 @@
+$header_height: 5vh;
+$sidebar_width: 64px;
+$secondary_sidebar_width: 24px;
+$secondary_sidebar_margin-left: 64px;
+$secondary_sidebar_width-hover: 220px;
+
+$container_margin-left: $sidebar_width + $secondary_sidebar_width;
+$container_width: calc(100vw - #{$container_margin-left});

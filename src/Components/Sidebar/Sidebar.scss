@@ -1,4 +1,5 @@
 @import '../../Styles/Colors.scss';
+@import '../../Styles/Dimensions.scss';
 
 .Sidebar {
     position: fixed;
@@ -13,7 +14,7 @@
     justify-content: space-between;
     padding-bottom: 24px;
     padding-top: 24px;
-    width: 64px;
+    width: $sidebar_width;
     background-color: $primary-color;
     color: rgb(222, 235, 255);
     fill: $primary-color;

@@ -1,5 +1,14 @@
 @import '/Styles/Colors.scss';
+@import '/Styles/Dimensions.scss';
 
 .App {
   background-color: $background-color;
+}
+
+.container {
+  display: block;
+  margin-left: $container_margin-left;
+  height: 100vh;
+  width: $container_width;
+  background-color: $dark-color;
 }

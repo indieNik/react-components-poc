@@ -11,6 +11,8 @@ class App extends Component {
         <Header></Header>
         <Sidebar></Sidebar>
         <SecondarySidebar></SecondarySidebar>
+        <div className="container">
+        </div>
       </div>
     );
   }
