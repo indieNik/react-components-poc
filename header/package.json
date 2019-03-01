@@ -1,5 +1,5 @@
 {
-  "name": "header",
+  "name": "engagedly-stencil-web-components",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "module": "dist/esm/index.js",
@@ -20,6 +20,11 @@
   "devDependencies": {
     "@stencil/core": "~0.16.2",
     "@stencil/sass": "^0.1.1"
+  },
+  "author": {
+    "name": "Nikhil Patil",
+    "email": "niki.thrill@gmail.com",
+    "url": "https://nikhilpatil.in"
   },
   "license": "MIT"
 }
