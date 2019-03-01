@@ -1,0 +1,52 @@
+@import '../../../../src/StyleUtilities/Colors.scss';
+@import '../../../../src/StyleUtilities/Dimensions.scss';
+
+.SecondarySidebar {
+    position: fixed;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100vh;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    width: $secondary_sidebar_width;
+    left: $secondary_sidebar_margin-left;
+    background-color: $light-color;
+    color: #deebff;
+    fill: $warning-color;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s, color 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+    box-shadow: 0px 0px 3px #333;
+
+    &:hover {
+        width: $secondary_sidebar_width-hover;
+        & + .SecondarySidebarButton {
+            left: $secondary_sidebar_margin-left + $secondary_sidebar_width-hover - 15px;
+        }
+    }
+}
+
+.SecondarySidebarButton {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: $dark-color;
+    background-color: $light-color;
+    position: fixed;
+    top: calc(#{$header_height} + 20px);
+    left: $secondary_sidebar_margin-left +  $secondary_sidebar_width - 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #333;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s, color 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+    &:hover {
+        background-color: $primary-color;
+        svg path {
+            fill: #fff;
+        }
+    }
+}
