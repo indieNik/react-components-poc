@@ -2,8 +2,13 @@ import React from 'react';
 
 import './Header.scss';
 
-const Header = () => {
-    return <div className="Header"></div>
+const Header = (props) => {
+    console.log(props)
+    return [
+        <div className="Header">
+            {props.children}
+        </div>
+    ]
 }
 
 export default Header;

@@ -1,5 +1,5 @@
-@import '/Styles/Colors.scss';
-@import '/Styles/Dimensions.scss';
+@import '/StyleUtilities/Colors.scss';
+@import '/StyleUtilities/Dimensions.scss';
 
 .App {
   background-color: $background-color;
@@ -11,4 +11,11 @@
   height: 100vh;
   width: $container_width;
   background-color: $background-color;
+}
+
+.logo-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5vh;
 }
